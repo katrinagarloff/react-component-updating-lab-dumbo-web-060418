@@ -92,7 +92,7 @@ We can and already are modifying the style of our Timer components using state
 (the background color is set by state). Using a ref in `componentDidUpdate` to
 change style properties _will override_ any styling set up in the `render()`,
 but won't set state.
-
+k
 To pass the first test in this lab, write `componentDidUpdate` within Timer. Use
 the provided ref to manipulate the DOM node to visually confirm. One suggestion:
 
